@@ -1,8 +1,8 @@
-<APIProxy revision="3" name="locar-api">
+<APIProxy revision="4" name="locar-api">
     <DisplayName></DisplayName>
     <Description>Opcoes de locacoes</Description>
-    <CreatedAt>1666198070597</CreatedAt>
-    <LastModifiedAt>1666198070597</LastModifiedAt>
+    <CreatedAt>1666200442738</CreatedAt>
+    <LastModifiedAt>1666200442738</LastModifiedAt>
     <BasePaths>/locar</BasePaths>
     <Policies>
         <Policy>add-cors</Policy>
