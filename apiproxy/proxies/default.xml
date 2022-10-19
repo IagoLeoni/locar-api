@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
     <PreFlow name="PreFlow">
-        <Request>
-        </Request>
-        <Response/>
+        <Request/>
+        <Response>
+            <Step>
+              <Name>json-to-xml</Name>
+            </Step>
+        </Response>
     </PreFlow>
     <Flows/>
     <PostFlow name="PostFlow">

@@ -2,9 +2,6 @@
 <TargetEndpoint name="default">
   <PreFlow name="PreFlow">
     <Request>
-      <Step>
-        <Name>add-cors</Name>
-      </Step>
     </Request>
     <Response/>
   </PreFlow>
