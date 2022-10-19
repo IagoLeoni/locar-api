@@ -1,0 +1,19 @@
+<APIProxy revision="2" name="locar-api">
+    <DisplayName></DisplayName>
+    <Description>Opcoes de locacoes</Description>
+    <CreatedAt>1666140504743</CreatedAt>
+    <LastModifiedAt>1666140504743</LastModifiedAt>
+    <BasePaths>/locar</BasePaths>
+    <Policies>
+        <Policy>verify-api-key</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>impose-quota</Policy>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
