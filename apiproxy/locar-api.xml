@@ -1,14 +1,14 @@
-<APIProxy revision="2" name="locar-api">
+<APIProxy revision="3" name="locar-api">
     <DisplayName></DisplayName>
     <Description>Opcoes de locacoes</Description>
-    <CreatedAt>1666140504743</CreatedAt>
-    <LastModifiedAt>1666140504743</LastModifiedAt>
+    <CreatedAt>1666198070597</CreatedAt>
+    <LastModifiedAt>1666198070597</LastModifiedAt>
     <BasePaths>/locar</BasePaths>
     <Policies>
+        <Policy>add-cors</Policy>
+        <Policy>impose-quota</Policy>
         <Policy>verify-api-key</Policy>
         <Policy>remove-query-param-apikey</Policy>
-        <Policy>impose-quota</Policy>
-        <Policy>add-cors</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
