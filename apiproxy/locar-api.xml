@@ -5,9 +5,6 @@
     <LastModifiedAt>1666200442738</LastModifiedAt>
     <BasePaths>/locar</BasePaths>
     <Policies>
-        <Policy>add-cors</Policy>
-        <Policy>impose-quota</Policy>
-        <Policy>remove-query-param-apikey</Policy>
     </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
