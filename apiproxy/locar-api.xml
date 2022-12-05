@@ -7,7 +7,6 @@
     <Policies>
         <Policy>add-cors</Policy>
         <Policy>impose-quota</Policy>
-        <Policy>verify-api-key</Policy>
         <Policy>remove-query-param-apikey</Policy>
     </Policies>
     <ProxyEndpoints>
